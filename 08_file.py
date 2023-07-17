@@ -9,7 +9,7 @@ app = FastAPI()
 
 @app.post("/files/")
 def create_files(files: List[bytes]=File(...)):
-    return {"file_sizes": [len(file for file in files)]}
+    return {"file_sizes": [len(file) for file in files]}
 
 @app.post("/uploadfiles/")
 def create_upload_files(files: List[UploadFile]=File(...)):
