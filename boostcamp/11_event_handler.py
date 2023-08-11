@@ -16,6 +16,7 @@ def shutdown_event():
     print('Shutdown Event')
     with open("log.txt", mode='a') as log:
         log.write("Application shutdown")
+        log.write("Application shutdown")
         
 @app.get("/items/{item_id}")
 def read_items(item_id:str):

@@ -4,12 +4,13 @@ import uvicorn
 
 from pydantic import BaseModel
 
+#Request Body
 class ItemIn(BaseModel):
     name:str
     description: Optional[str]=None
     price:float
     tax: Optional[float]=None
-
+#Response Body
 class ItemOut(BaseModel):
     name: str
     price: float
