@@ -1,0 +1,7 @@
+env: dev
+db:
+  host: localhost
+  port: 20
+  username: user
+  password: password
+  database: dev

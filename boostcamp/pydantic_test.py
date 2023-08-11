@@ -6,6 +6,4 @@ class ModelInput03(BaseModel):
     target_dir: DirectoryPath
     
 if __name__=='__main__':
-    ModelInput03(url="https://www.naver.com", rate=2, target_dir='/' )
-
-    
+    ModelInput03(url="https://www.naver.com", rate=10, target_dir='/' )

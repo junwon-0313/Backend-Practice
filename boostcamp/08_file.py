@@ -21,11 +21,11 @@ def main():
     <body>
     <form action="/files/" enctype="multipart/form-data" method = "post">
     <input name="files" type="file" multiple>
-    <input type ="submit">
+    <input name="file" type ="submit">
     </form>
      <form action="/uploadfiles/" enctype="multipart/form-data" method = "post">
     <input name="files" type="file" multiple>
-    <input type ="submit">
+    <input name="upload" type ="submit">
     </form>
     """
     return HTMLResponse(content=content)
