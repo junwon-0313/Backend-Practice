@@ -1,0 +1,10 @@
+{"asctime": "2023-08-12 18:48:19,730", "filename": "logging_bigquery.py", "levelname": "INFO", "name": "MLLogger", "log_message": "hello world"}
+{"asctime": "2023-08-12 18:48:20,758", "filename": "logging_bigquery.py", "levelname": "INFO", "name": "MLLogger", "log_message": "hello world"}
+{"asctime": "2023-08-12 18:48:20,894", "filename": "logging_bigquery.py", "levelname": "INFO", "name": "MLLogger", "log_message": "hello world"}
+{"asctime": "2023-08-12 18:48:20,977", "filename": "logging_bigquery.py", "levelname": "INFO", "name": "MLLogger", "log_message": "hello world"}
+{"asctime": "2023-08-12 18:48:21,059", "filename": "logging_bigquery.py", "levelname": "INFO", "name": "MLLogger", "log_message": "hello world"}
+{"asctime": "2023-08-12 18:48:21,193", "filename": "logging_bigquery.py", "levelname": "INFO", "name": "MLLogger", "log_message": "hello world"}
+{"asctime": "2023-08-12 18:48:21,277", "filename": "logging_bigquery.py", "levelname": "INFO", "name": "MLLogger", "log_message": "hello world"}
+{"asctime": "2023-08-12 18:48:21,357", "filename": "logging_bigquery.py", "levelname": "INFO", "name": "MLLogger", "log_message": "hello world"}
+{"asctime": "2023-08-12 18:48:21,443", "filename": "logging_bigquery.py", "levelname": "INFO", "name": "MLLogger", "log_message": "hello world"}
+{"asctime": "2023-08-12 18:48:21,523", "filename": "logging_bigquery.py", "levelname": "INFO", "name": "MLLogger", "log_message": "hello world"}
