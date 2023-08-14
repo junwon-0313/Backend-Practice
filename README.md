@@ -20,6 +20,10 @@
 
         mlflow run logistic_regression --experiment-name my-first-experiment --no-conda
         ```
+
+        ```bash
+        docker build -t mlflow:1.24.0 .
+        ```
 ---
 
 - tutorial
