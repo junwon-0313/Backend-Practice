@@ -24,6 +24,23 @@
         ```bash
         docker build -t mlflow:1.24.0 .
         ```
+
+    - Airflow
+        가상환경 설치, 패키지 설치, 환경 변수 설정
+        ```bash
+        conda create -n airflow_env python=3.8
+        conda activate airflow_env
+        pip install 'apache-airflow==2.2.0'
+        export AIRFLOW_HOME=./boostcamp
+        airflow db init
+        ```
+
+        ```bash
+        airflow users create --username admin --password 1234 --firstname junwon --lastname lee --role Admin --email jjuny9798@gmail.com
+
+        airflow webserver --port 8080
+        airflow scheduler
+        ```
 ---
 
 - tutorial

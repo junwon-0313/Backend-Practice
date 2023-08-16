@@ -1,2 +1,4 @@
 /key
 /mlruns
+/boostcamp/boostcamp/logs
+**.db
