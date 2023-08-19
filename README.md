@@ -1,4 +1,4 @@
-# FastAPI를 학습합니다.
+# BackEnd와 MLOps를 학습합니다.
 
 - boostcamp
 
